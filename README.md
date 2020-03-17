@@ -1,52 +1,97 @@
-
-# AutoServer
-
-------------
-
-### 下载App
-
-Telegram群下载: https://t.me/autoservergroup
-
-QQ群下载: 783129197
-
-进群后下载
+# AutoServer-Android-App
 
 ------------
 
-### 基本信息
+### Download App
 
-AutoServer是一款跨平台的安卓自动化框架,在android adb,uiautomator,appium的基础上加入了http协议,你可以非常方便的编程你的自动化操作，它类似于按键精灵,触动精灵,Auto.js，支持Python,Lua,java,javascript等语言,实现真正的跨平台开发。
-
-------------
-
-### 功能
-
-√ 已完成  , ⌛ 正在开发 , × 还未完成
-
-- √ 用http协议封装了大量的操作，可以通过http协议来触发
-
-- √ 通过局域网网站在线分析Xml
-
-- √ 通过局域网网站远程控制你的移动设备
-
-- √ 在局域网网站上编写自动化代码并运行
-
-- ⌛ 群控移动设备
-
-- 等等
+[[Click Me To Download AutoServer App](https://github.com/MarsDiplomatToEarth/AutoServerApp/blob/master/autoserver1.1.5.apk?raw=true "Click Me To Download AutoServer App")]
 
 ------------
 
-### AutoServer 开发教程文档
+### Basic Introduction
 
-[[Click me To Document Page](https://github.com/MarsDiplomatToEarth/AutoServer/blob/master/AutoServer_Http_Api_Document.md "Click me To Document Page")]
+AutoServer is Automatic Development Environment Based on Python,HTTP API,Uiautomator,Android Adb,Android Shell,XML. AutoServer can help you operate your android device by python automatically on web.AutoServer is like QuickMacro,Appium and so on.
+
+**With AutoServer, you can program automatical code by python easily on web**.Python is easier than Java,E language and so on to learn ,more convenient to code.
 
 ------------
 
-### 有问题或者合作开发此项目
+### Function Details
 
-邮箱 mr3317952@gmail.com
+√ Completed  , ⌛ being completed  , × incompleted
 
-Telegram群下载: https://t.me/autoservergroup
+- √ you can run it as a file server,you can download and upload the file with your phone by web.
 
-QQ群下载: 783129197
+- √ you can run it as a http server, use http api by sending android shell code to complete automation on web.
+
+- √ you can analyze the xml of the ui of your android device on web.
+
+- ⌛ you can control your android device with web by sending android shell code,tap read time screenshot and get your android device debug output on web.
+
+- ⌛ you can write your automatal code on web.
+
+- ⌛ you can control a lot of devices by single operating on web.
+
+- and so on
+
+------------
+
+### Function Introduction
+
+- Xml Hierarchy Analyzer
+
+- File Transfer
+
+- Control The Device(Building)
+
+- Run AutoServer Api
+
+------------
+
+### AutoServer Http Api Document
+
+
+[[Click me To Document Page](https://github.com/MarsDiplomatToEarth/AutoServerApp/blob/master/AutoServer_Http_Api_Document.md "Click me To Document Page")]
+
+------------
+
+### Device Requirements
+
+- 1.0.* Version requires root permission.
+
+------------
+
+### ScreenShot
+
+------------
+
+### What's New on 1.0.9 Version
+
+- Keep alive on background
+- Beautify Ui
+
+------------
+
+### What's New on 2.0.0 Version
+
+- Analyze Xml of Android Ui with PNG Image Online.
+
+- Write AutoPy Code On Web.
+
+- Beautify Ui
+
+- Without Root permission,you can get screenshot.
+
+------------
+
+### What's New on 3.0.0 Version
+
+- Beautify Ui
+
+- Without Root Permission,you can get screen.xml.
+
+------------
+
+### Contact Me
+
+mr3317952@gmail.com
