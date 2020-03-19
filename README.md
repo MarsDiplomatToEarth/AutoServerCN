@@ -10,7 +10,7 @@
 
 ### AutoServer的优势
 
-1. ###跨平台
+- ###跨平台
 
 将安卓操作封装成立http接口,只要在局域网或者本地访问相应的http url,就可以实现安卓自动化操作,你可以使用类似python的requests模块,node.js的http模块,java的okhttp模块,lua的socket.http模块等编程语言的http第三方http库封装相应访问操作实现自动操作(类似点击，滑动，找图，xml识别坐标等等),这样封装可以让几乎所有的编程语言都支持，适应不同平台。
 
