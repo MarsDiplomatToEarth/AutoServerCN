@@ -78,6 +78,8 @@ https://github.com/MarsDiplomatToEarth/AutoServerCN/blob/master/Document-Http.md
 ##### -通过局域网网页进行编程。
 ##### -！实现脚本打包成独立的apk。
 ##### -！通过html代码可以自定义编写独立的apk界面。
+##### -！支持lua脚本打包成apk。
+##### -！支持javascript脚本打包成apk。
 ##### -群控安卓设备。
 
 前面有！的正在开发，其余已完成。
