@@ -7,6 +7,10 @@
 在你的安卓设备安装并运行(可以后台操作)，它将会在你的移动设备端开启一个服务器监听你的http请求，通过这些请求你可以实现自动点击，滑动，获取手机信息，录音，录屏等等操作，它封装了大量自动化操作。可以适应不同的编程语言。是uiautomatorviewer和脚本精灵的高级在线版。
 接下来将为你介绍http接口。
 
+### 介绍一下
+
+以下http接口你可以自行封装,比如使用python的requests模块,java的okhttp模块,lua的resthttp模块,等等一些编程语言的网络模块封装,来达到按键精灵的效果或者方便你的自动化测试工作。
+
 ### Shell接口
 
 ------------
@@ -17,7 +21,7 @@
   (比如 http://192.168.1.100:8080/root)
 ```
 
--返回你的安卓设备的分辨率
+- 返回你的安卓设备的分辨率
 ```xml
   http://{your device ip:port}/size
 
@@ -114,64 +118,75 @@
    坐标列表
 ```
 
-- return Bounds List of the real time xml with your key and value(equal).
+- 通过你提供的节点类型和节点值返回列表格式的坐标(节点值相等才返回)
 ```xml
   http://{your device ip:port}/getboundsbykeyvalue?key={your key}&value={your value}
 
   (such as http://{your device ip:port}/getboundsbykeyvalue?key=text&value=Start Server)
 ```
 ```xml
-   Return Format:
+   返回格式:
    
-   Bounds(String) List
+   坐标列表
 ```
 
-- return the first of Node List of the real time xml with your key and value(equal).
+- 通过你提供的节点类型和节点值返回列表格式的一个节点(节点值相等才返回)
 ```xml
   http://{your device ip:port}/getnodebykeyvalue?key={your key}&value={your value}
 
   (such as http://{your device ip:port}/getnodebykeyvalue?key=text&value=Start Server)
 ```
 ```xml
-   Return Format:
+   返回格式:
    
-   the first of Node List
+   json格式
 ```
-- return the first of Node List of the real time xml with your key and value(contains).
+
+- 通过你提供的节点类型和节点值返回列表格式的一个节点(节点值包含才返回)
 ```xml
   http://{your device ip:port}/getnodebykeyvaluecontains?key={your key}&value={your value}
 
   (such as http://{your device ip:port}/getnodebykeyvaluecontains?key=text&value=Start Server)
 ```
 ```xml
-   Return Format:
+   返回格式:
    
-   the first of Node List
+   json格式
 ```
-- return the first bounds of Node List of the real time xml with your key and value(contains).
+
+- 通过你提供的节点类型和节点值返回列表格式的一个坐标(节点值包含才返回)
 ```xml
   http://{your device ip:port}/getboundbykeyvaluecontains?key={your key}&value={your value}
 
   (such as http://{your device ip:port}/getboundbykeyvaluecontains?key=text&value=Start Server)
 ```
 ```xml
-   Return Format:
+   返回格式:
    
-   bounds(String)
+   字符串
 ```
-- return the first bounds of Node List of the real time xml with your key and value(equal).
+
+- 通过你提供的节点类型和节点值返回列表格式的一个坐标(节点值相等就返回)
 ```xml
   http://{your device ip:port}/getboundbykeyvalue?key={your key}&value={your value}
 
   (such as http://{your device ip:port}/getboundbykeyvalue?key=text&value=Start Server)
 ```
 ```xml
-   Return Format:
+   返回格式:
    
-   bounds(String)
+   字符串
 ```
 ------------
 
-### Contact Me
+### 如果有Bug请提或者联系我
 
-mr3317952@gmail.com
+邮箱 mr3317952@gmail.com
+
+QQ 1908215058
+
+telegram @AutoServer
+
+QQ群 783129197
+
+telegram group @AutoServergroup
