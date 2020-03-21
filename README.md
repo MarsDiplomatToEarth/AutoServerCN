@@ -66,7 +66,7 @@ https://github.com/MarsDiplomatToEarth/AutoServerPython
 
 #### -Http Url接口文档
 
-暂无
+https://github.com/MarsDiplomatToEarth/AutoServerCN/blob/master/Document-Http.md
 
 ------------
 
